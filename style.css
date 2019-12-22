@@ -1,0 +1,288 @@
+.field {
+    width: 260px;
+    height: 290px;
+    position: relative;
+    float: left;
+}
+.head {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(128, 138, 150);
+    outline: 2px solid black;
+    left: 30px;
+    top: 120px;
+    z-index: 4;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.mouth {
+    position: relative;
+    width: 240px;
+    height: 60px;
+    background-color: rgb(146, 149, 160);
+    left: 10px;
+    top: 220px;
+    outline: 2px solid black;
+    z-index: 10;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.mouth-inner {
+    position: relative;
+    width: 212px;
+    height: 32px;
+    background-color: rgb(35, 41, 44);
+    left: 14px;
+    top: 14px;
+    outline: 2px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1) inset;
+}
+.tooth1 {
+    position: absolute;
+    width: 27px;
+    height: 34px;
+    background-color: white;
+    left: 72px;
+    outline: 2px solid black;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.tooth2 {
+    position: absolute;
+    width: 27px;
+    height: 34px;
+    background-color: white;
+    left: 112px;
+    outline: 2px solid black;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.eye-border1 {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    left: 18px;
+    top: 25px;
+    outline: 2px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.eye-border2 {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    left: 122px;
+    top: 25px;
+    outline: 2px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.nose {
+    position: absolute;
+    width: 58px;
+    height: 28px;
+    left: 71px;
+    top: 81px;
+    background-color: black;
+    z-index: 5;
+    outline: 1px solid black;
+}
+.nose-flare {
+    position: absolute;
+    width: 15px;
+    height: 6px;
+    background-color: white;
+    z-index: 6;
+}
+.eye-outer {
+    position: absolute;
+    width: 60px;
+    height: 75px;
+    background-color: black;
+    border-radius: 2em/2em;
+}
+.eye-inner {
+    position: absolute;
+    width: 51px;
+    height: 55px;
+    left: 5px;
+    top: 11px;
+    background-color: rgb(188, 27, 31);
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.circle1 {
+    width: 51px;
+    height: 50px;
+    position: absolute;
+    top: 3px;
+    border-radius: 100%;
+}
+.circle2 {
+    width: 51px;
+    height: 50px;
+    position: absolute;
+    top: 3px;
+    border-radius: 100%;
+}
+.eyeball {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 25px;
+    top: 17px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.eyebrow1 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    left: 65px;
+    top: 12px;
+    background-color: rgb(15, 15, 15);
+    transform: rotate(40deg);
+}
+.eyebrow2 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    left: 91px;
+    top: 12px;
+    background-color: rgb(15, 15, 15);
+    transform: rotate(-40deg);
+}
+.eyebrow3 {
+    position: absolute;
+    width: 13px;
+    height: 25px;
+    left: 94px;
+    top: 1px;
+    background-color: rgb(15, 15, 15);
+}
+.ear1 {
+    position: absolute;
+    width: 80px;
+    height: 140px;
+    left: 50px;
+}
+.ear2 {
+    position: absolute;
+    width: 80px;
+    height: 140px;
+    left: 130px;
+}
+.lamp1 {
+    position: absolute;
+    width: 55px;
+    height: 100px;
+    left: 5px;
+    top: 8px;
+    background-color: rgb(234, 157, 15);
+    z-index: 3;
+    border-radius: 100px 100px 80px 80px;
+    transform: rotate(-5deg);
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.lamp2 {
+    position: absolute;
+    width: 55px;
+    height: 100px;
+    right: 5px;
+    top: 8px;
+    background-color: rgb(234, 157, 15);
+    z-index: 3;
+    border-radius: 100px 100px 80px 80px;
+    transform: rotate(5deg);
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.lampholder1 {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    left: 21px;
+    top: 100px;
+    background-color: rgb(59, 30, 13);
+    transform: rotate(-5deg);
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.lampholder2 {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    right: 21px;
+    top: 100px;
+    background-color: rgb(59, 30, 13);
+    transform: rotate(5deg);
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.elem1-1 {
+    position: absolute;
+    width: 6px;
+    height: 70px;
+    left: 25px;
+    top: 30px;
+    background-color: rgb(176, 35, 19);
+    transform: rotate(-1deg);
+    z-index: 4;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.elem2-1 {
+    position: absolute;
+    width: 35px;
+    height: 7px;
+    left: 10px;
+    top: 23px;
+    background-color: rgb(176, 35, 19);
+    transform: rotate(-1deg);
+    z-index: 4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.elem3-1 {
+    position: absolute;
+    width: 15px;
+    height: 50px;
+    left: 21px;
+    top: 43px;
+    background-color: rgb(176, 35, 19);
+    transform: rotate(-1deg);
+    z-index: 4;
+    border-radius: 100px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.elem1-2 {
+    position: absolute;
+    width: 6px;
+    height: 70px;
+    right: 25px;
+    top: 30px;
+    background-color: rgb(176, 35, 19);
+    transform: rotate(1deg);
+    z-index: 4;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.elem2-2 {
+    position: absolute;
+    width: 35px;
+    height: 7px;
+    right: 10px;
+    top: 23px;
+    background-color: rgb(176, 35, 19);
+    transform: rotate(1deg);
+    z-index: 4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5) inset;
+}
+.elem3-2 {
+    position: absolute;
+    width: 15px;
+    height: 50px;
+    right: 21px;
+    top: 43px;
+    background-color: rgb(176, 35, 19);
+    transform: rotate(1deg);
+    z-index: 4;
+    border-radius: 100px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5) inset;
+}
